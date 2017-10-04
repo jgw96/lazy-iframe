@@ -1,6 +1,6 @@
 {
   "name": "lazy-iframe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Web component to help you lazy load iframes",
   "main": "dist/collection/index.js",
   "types": "dist/collection/index.d.ts",
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-starter.git"
+    "url": "https://github.com/jgw96/lazy-iframe"
   },
-  "author": "Ionic Team",
+  "author": "Justin Willis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/jgw96/lazy-iframe"
   },
-  "homepage": "https://github.com/ionic-team/stencil"
+  "homepage": "https://github.com/jgw96/lazy-iframe"
 }

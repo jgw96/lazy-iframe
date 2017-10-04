@@ -32,15 +32,15 @@ lazy-iframe exposes two css variables to enable easy styling of the iframe. Here
 ### Script tag
 
 - [Publish to NPM](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-- Put a script tag similar to this `<script src='https://unpkg.com/my-name@0.0.1/dist/myname.js'></script>` in the head of your index.html
+- Put a this script tag `<script src='https://unpkg.com/lazy-iframe@0.0.3/dist/lazyiframe.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
 - Run `npm install my-name --save`
-- Put a script tag similar to this `<script src='node_modules/my-name/dist/myname.js></script>` in the head of your index.html
+- Put a script tag similar to this `<script src='node_modules/lazy-iframe/dist/lazyiframe.js></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### In a stencil-starter app
-- Run `npm install my-name --save`
-- Add `{ name: 'my-name' }` to your [collections](https://github.com/ionic-team/stencil-starter/blob/master/stencil.config.js#L5)
+- Run `npm install lazy-iframe --save`
+- Add `{ name: 'lazy-iframe' }` to your [collections](https://github.com/ionic-team/stencil-starter/blob/master/stencil.config.js#L5)
 - Then you can use the element anywhere in your template, JSX, html etc
