@@ -1,0 +1,35 @@
+{
+  "name": "lazy-iframe",
+  "version": "0.0.2",
+  "description": "Web component to help you lazy load iframes",
+  "main": "dist/collection/index.js",
+  "types": "dist/collection/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "browser": "dist/lazyiframe.js",
+  "scripts": {
+    "build": "stencil build",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "serve": "stencil-dev-server",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@stencil/core": "0.0.6-10"
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "latest",
+    "@stencil/utils": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/stencil-starter.git"
+  },
+  "author": "Ionic Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionic-team/stencil"
+  },
+  "homepage": "https://github.com/ionic-team/stencil"
+}

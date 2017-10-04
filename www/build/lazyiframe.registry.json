@@ -1,0 +1,25 @@
+{
+  "namespace": "lazyiframe",
+  "components": [
+    [
+      "LAZY-IFRAME",
+      "hddacy8x",
+      {
+        "$": "bmamhctt"
+      },
+      [
+        [
+          "src",
+          1
+        ],
+        [
+          "title",
+          1
+        ]
+      ]
+    ]
+  ],
+  "loader": "lazyiframe.js",
+  "core": "lazyiframe/lazyiframe.eeclxdll.js",
+  "corePolyfilled": "lazyiframe/lazyiframe.tg5isdaz.pf.js"
+}

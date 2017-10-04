@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+  <script src="/build/lazyiframe.js"></script>
+
+  <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
+
+</head>
+<body>
+
+  <lazy-iframe src='https://www.youtube.com/embed/UfD-k7aHkQE' title='ionic and stencil'></lazy-iframe>
+
+
+  <script>
+    if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('service worker registered', reg))
+          .catch(err => console.log('service worker error', err));
+      });
+    }
+  </script>
+
+</body>
+</html>
